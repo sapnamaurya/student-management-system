@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://student-management-system-2-1zbr.onrender.com/api',
   withCredentials: true,
 });
 
