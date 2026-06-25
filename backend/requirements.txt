@@ -1,0 +1,5 @@
+flask==3.0.3
+flask-cors==4.0.1
+flask-mysqldb==2.0.0
+mysqlclient==2.2.4
+werkzeug==3.0.3
