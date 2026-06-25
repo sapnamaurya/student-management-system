@@ -39,7 +39,7 @@ function StudentModal({ student, courses, onClose, onSaved }) {
           <div className="form-grid">
             <div className="form-group">
               <label>Student ID *</label>
-              <input value={form.student_id} onChange={e => set('student_id', e.target.value)} placeholder="2024-0001" disabled={!!student?.id} />
+              <input value={form.student_id} onChange={e => set('student_id', e.target.value)} placeholder="2026-0001" disabled={!!student?.id} />
             </div>
             <div className="form-group">
               <label>Status</label>

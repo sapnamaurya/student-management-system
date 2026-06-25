@@ -41,7 +41,7 @@ function GradeModal({ studentId, grade, onClose, onSaved }) {
             </div>
             <div className="form-group full">
               <label>Semester</label>
-              <input value={form.semester} onChange={e => set('semester', e.target.value)} placeholder="e.g. 2024-1st" />
+              <input value={form.semester} onChange={e => set('semester', e.target.value)} placeholder="e.g. 2026-1st" />
             </div>
             <div className="form-group full">
               <label>Remarks</label>
