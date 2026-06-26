@@ -98,8 +98,8 @@ INSERT INTO students (student_id, first_name, last_name, email, phone, date_of_b
 ('2026-0003','Clara','Gomez','clara.gomez@school.edu','09191234567','2003-11-10','female','789 Luna St, Makati',2,2,2,'active'),
 ('2026-0004','Dan','Cruz','dan.cruz@school.edu','09201234567','2001-06-05','male','321 Del Pilar St, Pasig',3,3,4,'active'),
 ('2026-0005','Eva','Lim','eva.lim@school.edu','09211234567','2002-03-18','female','654 Aguinaldo Blvd, Taguig',4,3,3,'active'),
-('2023-0006','Frank','Tan','frank.tan@school.edu','09221234567','2001-09-30','male','987 Quezon Blvd, Manila',2,2,4,'active'),
-('2023-0007','Grace','Villanueva','grace.v@school.edu','09231234567','2003-01-25','female','147 P. Burgos St, Caloocan',5,2,2,'active'),
+('2025-0006','Frank','Tan','frank.tan@school.edu','09221234567','2001-09-30','male','987 Quezon Blvd, Manila',2,2,4,'active'),
+('2025-0007','Grace','Villanueva','grace.v@school.edu','09231234567','2003-01-25','female','147 P. Burgos St, Caloocan',5,2,2,'active'),
 ('2022-0008','Hank','Dela Cruz','hank.dc@school.edu','09241234567','2000-07-12','male','258 Libertad St, Mandaluyong',1,2,4,'inactive'),
 ('2026-0009','Iris','Fernandez','iris.f@school.edu','09251234567','2003-05-08','female','369 Edsa, Pasay',3,3,1,'active'),
 ('2026-0010','Jake','Mendoza','jake.m@school.edu','09261234567','2002-12-20','male','741 España Blvd, Sampaloc',4,3,2,'active');
