@@ -15,7 +15,8 @@ app = Flask(__name__)
 app.secret_key = 'sms_secret_key_change_in_production'
 app.config['SESSION_COOKIE_SAMESITE'] = 'None'
 app.config['SESSION_COOKIE_SECURE'] = True
-CORS(app, supports_credentials=True, origins=['http://localhost:3000', 'https://student-management-system-zgh9.vercel.app'])
+CORS(app, supports_credentials=True, origins=['http://localhost:3000', 'https://student-management-system-zgh9.vercel.app','
+    'https://student-management-system-hazel-psi.vercel.app'])
 
 app.config['MYSQL_HOST'] = os.environ.get('MYSQLHOST', 'localhost')
 app.config['MYSQL_PORT'] = int(os.environ.get('MYSQLPORT', 3306))
